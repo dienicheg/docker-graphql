@@ -28,7 +28,7 @@ jobs:
         docker build -t nicochazarreta/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push nicochazarreta/docker-graphql:0.0.2 .
+        docker push nicochazarreta/docker-graphql:0.0.2
 
     
         
